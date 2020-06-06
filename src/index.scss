@@ -1,0 +1,194 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+//nav
+
+.header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+
+    .header__logo {
+      font-family: Merriweather;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 50px;
+      text-decoration: none;
+
+      /* Accent */
+
+      color: #005fa3;
+
+      img {
+        top: -5px;
+        position: relative;
+        margin-right: 30px;
+      }
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 671px;
+      flex-wrap: nowrap;
+    }
+
+    .header__nav .nav {
+      &__social-list,
+      &__link-list {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        list-style: none;
+        text-decoration: none;
+        padding: 0;
+
+        .nav__item {
+          a {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #222222;
+          }
+        }
+
+        .social__item {
+          display: flex;
+          align-items: center;
+          margin-top: 22px;
+
+          p {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 17px;
+            margin: 0;
+            padding: 0;
+          }
+
+          img {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Slider
+
+.first-screen {
+  height: 670px;
+  left: 0px;
+  top: 110px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__text {
+    width: 589px;
+    height: 117px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    margin-bottom: 80px;
+  }
+
+  &__button {
+    width: 270px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    border: none;
+    background: #005fa3;
+    margin-bottom: 120px;
+    padding: 0;
+  }
+
+  .carousel {
+    max-width: 1100px;
+    width: auto;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    display: flex;
+  }
+
+  .carousel-indicators {
+    width: 50%;
+    left: -140px;
+    margin: 0;
+    bottom: 113px;
+
+    li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin: 0 40px;
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+    top: 497px;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  .carousel-control-prev {
+    position: relative;
+    left: -60px;
+    top: 192px;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('./assets/arrow-right.png');
+    width: 7.93px;
+    height: 15px;
+  }
+  .carousel-control-prev-icon {
+    background-image: url('./assets/arrow-left.png');
+    width: 7.93px;
+    height: 15px;
+  }
+}
