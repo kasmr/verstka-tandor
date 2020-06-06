@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from './components/Slider';
 import Navbar from './components/Navbar';
+import Services from './components/Services';
 
 const App = () => {
   return (
@@ -9,6 +10,9 @@ const App = () => {
         <Navbar />
         <Slider />
       </header>
+      <div className='container__body'>
+        <Services />
+      </div>
     </div>
   );
 };
