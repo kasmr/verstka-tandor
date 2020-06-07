@@ -1,49 +1,49 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import clients from '../assets/clients.png';
+import avatar from '../assets/avatar.png';
 
-const Clients = () => {
+const Reviews = () => {
   return (
-    <div className='clients'>
+    <div>
       <Carousel>
         <Carousel.Item>
           <h2>Наши клиенты</h2>
           <h1 className='slider__text'>C нами работают</h1>
           <div className='slider__body'>
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <h2>Наши клиенты</h2>
           <h1 className='slider__text'>C нами работают</h1>
           <div className='slider__body'>
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <h2>Наши клиенты</h2>
           <h1 className='slider__text'>C нами работают</h1>
           <div className='slider__body'>
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <h2>Наши клиенты</h2>
           <h1 className='slider__text'>C нами работают</h1>
           <div className='slider__body'>
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
-            <img src={clients} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
+            <img src={avatar} alt='' />
           </div>
         </Carousel.Item>
       </Carousel>
@@ -51,4 +51,4 @@ const Clients = () => {
   );
 };
 
-export default Clients;
+export default Reviews;

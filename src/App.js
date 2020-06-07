@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Services from './components/Services';
 import About from './components/About';
 import Clients from './components/Clients';
+import Reviews from './components/Reviews';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Services />
         <About />
         <Clients />
+        <Reviews />
       </div>
     </div>
   );
