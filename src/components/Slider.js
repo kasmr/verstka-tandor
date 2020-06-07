@@ -6,28 +6,28 @@ const Slider = () => {
     <div className='first-screen'>
       <Carousel>
         <Carousel.Item>
-          <h1 className='first-screen__text'>
+          <h1 className='slider__text'>
             Бухгалтерские услуги в Санкт-Петербурге
           </h1>
-          <button className='first-screen__button'>Наша презентация</button>
+          <button className='slider__button'>Наша презентация</button>
         </Carousel.Item>
         <Carousel.Item>
-          <h1 className='first-screen__text'>
+          <h1 className='slider__text'>
             Бухгалтерские услуги в Санкт-Петербурге
           </h1>
-          <button className='first-screen__button'>Наша презентация</button>
+          <button className='slider__button'>Наша презентация</button>
         </Carousel.Item>
         <Carousel.Item>
-          <h1 className='first-screen__text'>
+          <h1 className='slider__text'>
             Бухгалтерские услуги в Санкт-Петербурге
           </h1>
-          <button className='first-screen__button'>Наша презентация</button>
+          <button className='slider__button'>Наша презентация</button>
         </Carousel.Item>
         <Carousel.Item>
-          <h1 className='first-screen__text'>
+          <h1 className='slider__text'>
             Бухгалтерские услуги в Санкт-Петербурге
           </h1>
-          <button className='first-screen__button'>Наша презентация</button>
+          <button className='slider__button'>Наша презентация</button>
         </Carousel.Item>
       </Carousel>
     </div>
