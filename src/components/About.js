@@ -22,22 +22,22 @@ const About = () => {
         <div className='about__item'>
           <h1>90</h1>
           <p>Завершено крупных сделок</p>
-          <a href=''>Все кейсы</a>
+          <a href='#something'>Все кейсы</a>
         </div>
         <div className='about__item'>
           <h1>90</h1>
           <p>Завершено крупных сделок</p>
-          <a href=''>Все кейсы</a>
+          <a href='#something'>Все кейсы</a>
         </div>
         <div className='about__item'>
           <h1>90</h1>
           <p>Завершено крупных сделок</p>
-          <a href=''>Все кейсы</a>
+          <a href='#something'>Все кейсы</a>
         </div>
         <div className='about__item'>
           <h1>90</h1>
           <p>Завершено крупных сделок</p>
-          <a href=''>Все кейсы</a>
+          <a href='#something'>Все кейсы</a>
         </div>
       </div>
     </div>

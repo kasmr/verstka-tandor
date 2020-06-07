@@ -8,7 +8,7 @@ import clock from '../assets/clock.png';
 const Navbar = () => {
   return (
     <div className='container'>
-      <h1 href='#' className='header__logo'>
+      <h1 href='#something' className='header__logo'>
         <img src={logo} alt='logo' /> BuhOne
       </h1>
       <nav className='header__nav nav'>
@@ -32,27 +32,27 @@ const Navbar = () => {
         </ul>
         <ul className='nav__link-list'>
           <li className='nav__item'>
-            <a href='#' className='nav__link'>
+            <a href='#something' className='nav__link'>
               Главная
             </a>
           </li>
           <li className='nav__item'>
-            <a href='#' className='nav__link'>
+            <a href='#something' className='nav__link'>
               Услуги
             </a>
           </li>
           <li className='nav__item'>
-            <a href='#' className='nav__link'>
+            <a href='#something' className='nav__link'>
               Кейсы
             </a>
           </li>
           <li className='nav__item'>
-            <a href='#' className='nav__link'>
+            <a href='#something' className='nav__link'>
               О компании
             </a>
           </li>
           <li className='nav__item'>
-            <a href='#' className='nav__link'>
+            <a href='#something' className='nav__link'>
               Контакты
             </a>
           </li>

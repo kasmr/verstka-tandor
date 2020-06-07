@@ -5,6 +5,8 @@ import Services from './components/Services';
 import About from './components/About';
 import Clients from './components/Clients';
 import Reviews from './components/Reviews';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -13,12 +15,12 @@ const App = () => {
         <Navbar />
         <Slider />
       </header>
-      <div className='container__body'>
-        <Services />
-        <About />
-        <Clients />
-        <Reviews />
-      </div>
+      <Services />
+      <About />
+      <Clients />
+      <Reviews />
+      <Contact />
+      <Footer />
     </div>
   );
 };
