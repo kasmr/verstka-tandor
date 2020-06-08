@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import avatar from '../assets/avatar.png';
+import avatar from '../../assets/avatar.png';
 
 const Reviews = () => {
   return (

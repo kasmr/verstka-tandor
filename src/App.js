@@ -1,12 +1,12 @@
 import React from 'react';
-import Slider from './components/Slider';
-import Navbar from './components/Navbar';
-import Services from './components/Services';
-import About from './components/About';
-import Clients from './components/Clients';
-import Reviews from './components/Reviews';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Slider from './components/slider/Slider';
+import Navbar from './components/navbar/Navbar';
+import Services from './components/services/Services';
+import About from './components/about/About';
+import Clients from './components/clients/Clients';
+import Reviews from './components/reviews/Reviews';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 const App = () => {
   return (

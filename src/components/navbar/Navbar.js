@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from '../assets/logo.png';
-import phone from '../assets/phone.png';
-import mail from '../assets/mail.png';
-import geo from '../assets/geo.png';
-import clock from '../assets/clock.png';
+import logo from '../../assets/logo.png';
+import phone from '../../assets/phone.png';
+import mail from '../../assets/mail.png';
+import geo from '../../assets/geo.png';
+import clock from '../../assets/clock.png';
 
 const Navbar = () => {
   return (

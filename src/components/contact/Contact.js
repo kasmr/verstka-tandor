@@ -1,6 +1,6 @@
 import React from 'react';
-import phone from '../assets/phone_white.png';
-import mail from '../assets/mail_white.png';
+import phone from '../../assets/phone_white.png';
+import mail from '../../assets/mail_white.png';
 
 const Contact = () => {
   return (

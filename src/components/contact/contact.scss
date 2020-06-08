@@ -1,0 +1,149 @@
+.contact {
+  width: 100%;
+  height: 623px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../assets/1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+
+  .contact__container {
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+
+    .contact__info {
+      max-width: 540px;
+      margin-right: 55px;
+      padding-top: 122px;
+
+      h1 {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 69px;
+        margin-bottom: 60px;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        width: 445px;
+        letter-spacing: 0.2px;
+        margin-bottom: 80px;
+        opacity: 0.9;
+      }
+
+      &_icons {
+        display: flex;
+        justify-content: space-between;
+        opacity: 0.9;
+
+        a {
+          text-decoration: none;
+          color: rgb(255, 255, 255);
+          font-style: normal;
+          font-weight: 300;
+          font-size: 21px;
+          line-height: 29px;
+        }
+
+        img {
+          margin-right: 15px;
+        }
+      }
+    }
+
+    .contact__form {
+      width: 540px;
+      margin-left: 50px;
+      padding-top: 135px;
+
+      label:las input[type='text' i] {
+        padding: 0 0 15px 0;
+      }
+
+      input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        width: 255px;
+        color: rgb(255, 255, 255);
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 29px;
+        outline: none;
+      }
+
+      .form__group {
+        display: flex;
+      }
+
+      fieldset {
+        display: flex;
+        width: 100%;
+
+        &:first-child {
+          padding-right: 35px;
+        }
+
+        label {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+          margin-bottom: 15px;
+        }
+      }
+
+      .form__texarea {
+        label {
+          margin-top: 35px;
+        }
+
+        textarea {
+          display: flex;
+          background-color: transparent;
+          border-top: none;
+          border-right: none;
+          border-left: none;
+          border-image: initial;
+          border-bottom: 1px solid rgb(255, 255, 255);
+          margin-top: 0px;
+          margin-bottom: 0px;
+          height: 133px;
+          width: 540px;
+          resize: none;
+          outline: none;
+          color: rgb(255, 255, 255);
+          font-style: normal;
+          font-weight: 300;
+          font-size: 21px;
+          line-height: 29px;
+        }
+      }
+
+      button {
+        width: 270px;
+        height: 60px;
+        color: rgb(255, 255, 255);
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        border: none;
+        background: #005fa3;
+        margin-top: 50px;
+        margin-left: 270px;
+        padding: 0;
+      }
+    }
+  }
+}

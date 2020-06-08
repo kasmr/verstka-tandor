@@ -1,0 +1,17 @@
+.footer {
+  max-width: 1100px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
